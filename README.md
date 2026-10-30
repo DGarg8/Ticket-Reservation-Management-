@@ -43,28 +43,6 @@ Ticket-Reservation-System/
 - Java Development Kit (JDK) installed.
 - Any Java IDE (IntelliJ IDEA, Eclipse, or VS Code) or terminal.
 
-### Steps
-
-1. Clone the repository:
-
-   ```bash
-   git clone <your-repository-url>
-   ```
-
-2. Navigate to the project directory.
-
-3. Compile the Java file:
-
-   ```bash
-   javac -d . TicketReservationMain.java
-   ```
-
-4. Run the application:
-
-   ```bash
-   java OPP_Project.TicketReservationMain
-   ```
-
 ## 💻 Sample Output
 
 ```text
