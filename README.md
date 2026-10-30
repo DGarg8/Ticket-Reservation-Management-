@@ -1,11 +1,12 @@
-
 # 🎟️ Ticket Reservation System (Java)
 
 ## 📌 About the Project
 
-The **Ticket Reservation System** is a console-based Java application that allows users to manage ticket reservations through a simple menu-driven interface.
+The **Ticket Reservation System** is a console-based Java application developed as part of the Semester 3 Object-Oriented Programming (OOP) coursework.
 
-Users can book seats, cancel existing reservations, and view all current bookings. The project demonstrates the practical implementation of Object-Oriented Programming (OOP) concepts in Java.
+The application allows users to book seats, cancel existing reservations, and view all current bookings through a simple menu-driven interface.
+
+This project demonstrates the practical implementation of Java OOP concepts, interfaces, collections, and exception handling.
 
 ## ✨ Features
 
@@ -13,21 +14,22 @@ Users can book seats, cancel existing reservations, and view all current booking
 - **Cancel Reservation:** Cancel an existing reservation using its seat number.
 - **View Reservations:** Display all currently booked seats and attendee details.
 - **Duplicate Booking Prevention:** Prevents users from booking an already reserved seat.
-- **Exception Handling:** Handles invalid inputs and unavailable seats.
-- **Menu-Driven Interface:** Provides an easy-to-use console interface.
+- **Exception Handling:** Handles unavailable seats and invalid inputs.
+- **Menu-Driven Interface:** Provides a simple console-based user experience.
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies & Concepts Used
 
 - **Programming Language:** Java
 - **Collections Framework:** ArrayList
 - **Interface:** ReservationManager
-- **Exception Handling:** Custom Exception and Built-in Exceptions
-- **OOP Concepts:** Classes, Objects, Interfaces, Encapsulation, and Abstraction
+- **Custom Exception:** SeatUnavailableException
+- **Exception Handling:** Built-in and custom exceptions
+- **OOP Concepts:** Classes, Objects, Abstraction, and Interfaces
 
 ## 📂 Project Structure
 
 ```text
-Ticket-Reservation-System/
+Ticket-Reservation-System-Java/
 │
 ├── src/
 │   └── OPP_Project/
@@ -36,12 +38,11 @@ Ticket-Reservation-System/
 └── README.md
 ```
 
-## ⚙️ How to Run the Project
-
 ### Prerequisites
 
 - Java Development Kit (JDK) installed.
-- Any Java IDE (IntelliJ IDEA, Eclipse, or VS Code) or terminal.
+- Any Java IDE or terminal.
+
 
 ## 💻 Sample Output
 
@@ -81,25 +82,32 @@ Reservation cancelled!
 
 | Concept | Implementation |
 |---|---|
-| Class and Object | Reservation, TicketSystem |
+| Classes and Objects | Reservation, TicketSystem |
 | Interface | ReservationManager |
 | Abstraction | Defining reservation operations through an interface |
-| Encapsulation | Organizing reservation data and operations within classes |
+| Collections | ArrayList for storing reservations |
 | Exception Handling | Handling unavailable seats and invalid reservations |
-| Collections | Using ArrayList to store reservations |
 
 ## 🚀 Future Improvements
 
-- Add user authentication and registration.
+- Add user registration and authentication.
 - Introduce different ticket categories.
-- Store reservations permanently using a database.
+- Integrate a database for permanent reservation storage.
 - Add ticket pricing and payment functionality.
 - Develop a graphical user interface (GUI).
 - Generate booking confirmation and ticket IDs.
 
+## 🎓 Academic Information
+
+- **Project:** Ticket Reservation System
+- **Semester:** 3
+- **Subject:** Object-Oriented Programming
+- **Language:** Java
+- **Project Type:** Academic Mini Project
+
 ## 👨‍💻 Author
 
-Developed as a Java Object-Oriented Programming project.
+Developed as part of Semester 3 academic coursework to understand and implement Object-Oriented Programming concepts using Java.
 
 ---
 
